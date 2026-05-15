@@ -28,6 +28,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ATS Judger",
   description: "The Ultimate CV Judger",
+  icons: {
+    icon: "/PageIcon.png",
+  },
 };
 
 export default function RootLayout({
