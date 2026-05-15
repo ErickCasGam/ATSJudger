@@ -4,6 +4,14 @@ import "./globals.css";
 
 import { Orbitron, Rajdhani } from "next/font/google";
 
+
+export const metadata: Metadata = {
+  title: "ATS Judger",
+  description: "The Ultimate CV Judger",
+  icons: {
+    icon: "/skullicon.png",
+  },
+};
 const orbitron = Orbitron({
   subsets: ["latin"],
   variable: "--font-orbitron",
@@ -25,13 +33,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "ATS Judger",
-  description: "The Ultimate CV Judger",
-  icons: {
-    icon: "/PageIcon.png",
-  },
-};
+
 
 export default function RootLayout({
   children,
